@@ -1,6 +1,7 @@
 import sys
 import os
 
+
 # `Extension` from setuptools cannot compile Fortran code, so we have to use
 # the one from numpy. To do so, we also need to use the `setup` function
 # from numpy, not from setuptools.
