@@ -75,12 +75,11 @@ if __name__ == "__main__":
               "scikit-learn>=0.18.0",
               "scipy>=0.14.1",
               "joblib>=0.14.1",
-              "setuptools<=57.5.0"
           ],
           python_requires=">=3.6.*",
           # We need pkg_resources, shipped with setuptools,
           # for version numbering.
-          setup_requires=["setuptools==57.5.0"],
+          setup_requires=["setuptools"],
           ext_modules=[glmnet_lib],
           packages=['glmnet'],
           classifiers=[
