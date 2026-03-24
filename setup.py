@@ -18,7 +18,7 @@ except ImportError:
              " \n  $ pip install numpy")
 
 
-_VERSION = "2.2.1"
+_VERSION = "2.2.2"
 
 f_compile_args = ['-ffixed-form', '-fdefault-real-8']
 
@@ -62,14 +62,14 @@ glmnet_lib = Extension(name='_glmnet',
                        )
 
 if __name__ == "__main__":
-    setup(name="glmnet",
+    setup(name="python_glmnet_fix",
           version=_VERSION,
           description="Python wrapper for glmnet",
           long_description=read('README.rst'),
           long_description_content_type="text/x-rst",
           author="Civis Analytics Inc",
           author_email="opensource@civisanalytics.com",
-          url="https://github.com/civisanalytics/python-glmnet",
+          url="https://github.com/randrover/python-glmnet",
           install_requires=[
               "numpy>=1.9.2",
               "scikit-learn>=0.18.0",
