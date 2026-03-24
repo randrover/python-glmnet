@@ -18,7 +18,7 @@ except ImportError:
              " \n  $ pip install numpy")
 
 
-_VERSION = "2.2.2"
+_VERSION = "2.2.3"
 
 f_compile_args = ['-ffixed-form', '-fdefault-real-8']
 

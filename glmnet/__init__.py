@@ -5,4 +5,4 @@ from .linear import ElasticNet
 
 __all__ = ['LogitNet', 'ElasticNet']
 
-__version__ = pkg_resources.get_distribution("glmnet").version
+__version__ = pkg_resources.get_distribution("python_glmnet_fix").version
