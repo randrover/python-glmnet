@@ -43,7 +43,7 @@ if __name__ == "__main__":
             "scipy>=0.14.1",
             "joblib>=0.14.1",
         ],
-        python_requires=">=3.6.*",
+        python_requires=">=3.6",
         ext_modules=[glmnet_lib],
         packages=['glmnet'],
         classifiers=[
